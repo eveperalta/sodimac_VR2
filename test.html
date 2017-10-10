@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sodimac VR</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/css/mdb.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/image-picker.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+
+<body>
+<header>
+  <nav class="navbar" >
+    <div class="container">
+      <div class="navbar-header">
+        <img src="img/Logo.png" class="logo" alt="">
+        <a href="" class="navbar-brand">Sodimac VR</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="boton">
+        <button type="button" class="btn btn-outline-primary btn-rounded waves-effect boton" data-toggle="modal" data-target="#myModal">Enviar</button>
+        <button type="button" class="btn btn-outline-primary btn-rounded waves-effect boton" data-toggle="modal" data-target="#myModal2">Imprimir</button>
+     </div>
+    </div>
+    <div class="row">
+      <h2> ¿Cual es tu espacio Favorito?</h2>
+    </div>
+    <div class="row">
+      <h3>Baños</h3>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <select name="banos" id="banos" class="image-picker show-html show-labels" multiple="multiple" data-limit="5">
+          <option value=""></option>
+          <option data-img-src="img/baño1.png" class="img-fluid" value="1">Baño 1</option>
+          <option data-img-src="img/baño2.png" class="img-fluid" value="2">Baño 2</option>
+          <option data-img-src="img/baño3.png" class="img-fluid" value="3">Baño 3</option>
+          <option data-img-src="img/baño4.png" class="img-fluid" value="4">Baño 4</option>
+          <option data-img-src="img/baño5.png" class="img-fluid" value="5">Baño 5</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <h3>Cocinas</h3>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <select name="cocinas" id="cocinas" class="image-picker show-html show-labels" multiple="multiple" data-limit="5">
+          <option data-img-src="img/cocina1.png" class="img-fluid" value="1">Cocina 1</option>
+          <option data-img-src="img/cocina2.png" class="img-fluid" value="2">Cocina 2</option>
+          <option data-img-src="img/cocina3.png" class="img-fluid" value="3">Cocina 3</option>
+          <option data-img-src="img/cocina4.png" class="img-fluid" value="4">Cocina 4</option>
+          <option data-img-src="img/cocina5.png" class="img-fluid" value="5">Cocina 5</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+<!--modal email -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Ingrese su email</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-horizontal">
+            <label for="email" class="control-label">Email</label>
+            <input type="email" class="form-horizontal input-md" id="email">
+          </div>
+          <button type="submit" class="btn btn-outline-primary btn-rounded waves-effect boton2">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- modal impresion -->
+    <div id="myModal2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Por favor llene los campos antes de enviar a impresión</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-horizontal">
+                <label for="email" class="control-label">Email:</label>
+                <input type="email" class="form-horizontal input-md" id="email">
+                <label for="name" class="control-label">Nombre:</label>
+                <input type="text" class="form-horizontal input-md" id="name">
+                <label for="rut" class="control-label">RUT:</label>
+                <input type="number" class="form-horizontal input-md" id="rut">
+              </div>
+              <button type="submit" class="btn btn-outline-primary btn-rounded waves-effect boton2">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  
+
+    
+
+
+
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src= https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js></script>
+    <script src="js/image-picker.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

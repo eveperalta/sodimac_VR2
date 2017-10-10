@@ -1,0 +1,54 @@
+
+.navbar{
+	background-color: ;
+	height: 30px;
+}
+.navbar-brand{
+	background-color: transparent;
+	color: #0072BE;
+	font-size: 32px;
+	font-family: "Roboto",sans-serif;
+	margin: 10px;
+	font-weight: bold;
+	padding: 10px;
+	padding-bottom: 10px;
+}
+.logo{
+	width: 60px;
+	height: 50px;
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+}
+label{
+	font-size: 18px;
+}
+li{
+	width: 290px;
+	height: 190px;
+	/*border-radius: 50%;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.boton{
+	position: relative;
+	right: -250px;
+}
+
+.boton2{
+	position: relative;
+	right: -450px;
+}
+h2{
+	text-align: center;
+	font-size: 38px;
+	font-family:'Roboto', sans-serif;
+	font-weight: bold;
+}
+h3{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+	font-family:'Roboto', sans-serif;
+}
